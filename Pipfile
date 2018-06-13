@@ -1,0 +1,29 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+django = "*"
+dj-database-url = "*"
+celery = {extras = ["redis"]}
+python-dateutil = "*"
+"psycopg2-binary" = "*"
+redis = "*"
+whitenoise = "*"
+django-celery-beat = "*"
+django-celery-results = "*"
+django-redis = "*"
+pillow = "*"
+django-cors-headers = "*"
+django-extensions = "*"
+jupyter = "*"
+ipython = "*"
+ipdb = "*"
+structlog = "*"
+kombu = "==4.2.0"
+
+[dev-packages]
+
+[requires]
+python_version = "3.6"
